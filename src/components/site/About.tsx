@@ -1,9 +1,9 @@
 import { Reveal } from "./Reveal";
 
 const FACTS = [
-  ["Based", "Lisbon / worldwide"],
-  ["Since", "2012"],
-  ["Focus", "Available light"],
+  ["Based", "Malaysia"],
+  ["Since", "2017"],
+  ["Focus", "Real moments"],
 ];
 
 export function About() {
@@ -14,7 +14,7 @@ export function About() {
           <div className="relative overflow-hidden rounded-lg border border-border/60">
             <img
               src="/gallery-portrait-1.jpg"
-              alt="Portrait of Elena Voss in her studio"
+              alt="Portrait of Daniel Sushil on location"
               loading="lazy"
               decoding="async"
               width={1200}
@@ -32,13 +32,13 @@ export function About() {
               Light first, <span className="text-primary">always</span>
             </h2>
             <p className="mt-8 max-w-md text-sm leading-relaxed text-muted-foreground">
-              I photograph people and places the way they actually happen — no strobes, no staging,
-              just the light that's already in the room. Fifteen years of editorial commissions,
-              documentary weddings and long night walks have taught me that patience is the only
-              real technique.
+              I'm Daniel Sushil, the photographer behind Sushil Production. Based in Malaysia, I've
+              been documenting weddings, portraits, families and celebrations since 2017 — no forced
+              poses, just the light and emotion that's already there.
             </p>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
-              Work published in Kinfolk, Monocle and Le Monde; commissions across 34 countries.
+              Available for commissions across Malaysia and beyond. Reach me at
+              sushilphotography25@gmail.com or 0108222519.
             </p>
           </Reveal>
 
