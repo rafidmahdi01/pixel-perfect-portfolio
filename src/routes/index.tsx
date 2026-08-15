@@ -12,20 +12,20 @@ import { ZoomStatement } from "@/components/site/ZoomStatement";
 
 import { Contact } from "@/components/site/Contact";
 
-const title = "Elena Voss — Photographer & Visual Storyteller";
+const title = "Daniel Sushil — Photographer & Visual Storyteller";
 const description =
-  "Portfolio of Elena Voss: editorial portraits, documentary weddings, landscape and night street photography shot in available light across 34 countries.";
+  "Portfolio of Daniel Sushil and Sushil Production: wedding, portrait, event and commercial photography captured across Malaysia since 2017.";
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "Elena Voss Photography",
+  name: "Sushil Production",
   description,
   url: SITE_URL,
   image: `${SITE_URL}/gallery-portrait-1.jpg`,
-  areaServed: "Worldwide",
-  founder: { "@type": "Person", name: "Elena Voss", jobTitle: "Photographer" },
-  serviceType: ["Editorial portraits", "Documentary weddings", "Landscape photography"],
+  areaServed: "Malaysia",
+  founder: { "@type": "Person", name: "Daniel Sushil", jobTitle: "Photographer" },
+  serviceType: ["Wedding photography", "Portrait sessions", "Event coverage", "Commercial photography"],
 };
 
 export const Route = createFileRoute("/")({

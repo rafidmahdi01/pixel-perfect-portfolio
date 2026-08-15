@@ -17,7 +17,7 @@ export function SiteNav() {
           href="#top"
           className="truncate font-display text-sm font-extrabold uppercase tracking-[0.28em]"
         >
-          Elena Voss
+          Sushil Production
         </a>
         <div className="flex shrink-0 items-center gap-4 sm:gap-7">
           <nav className="hidden gap-7 text-xs uppercase tracking-[0.22em] text-muted-foreground sm:flex">

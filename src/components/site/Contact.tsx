@@ -1,21 +1,30 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef, useState } from "react";
-import { Check, Copy, Instagram, Video, Palette } from "lucide-react";
+import { Check, Copy, Instagram, Facebook, Phone } from "lucide-react";
 import { Reveal } from "./Reveal";
 
-const EMAIL = "studio@elenavoss.photo";
+const EMAIL = "sushilphotography25@gmail.com";
+const PHONE = "0108222519";
 
 const SERVICES = [
-  { name: "Editorial & campaign", note: "Day rate from $2,400" },
-  { name: "Portrait sessions", note: "Studio or location, 90 min" },
-  { name: "Wedding documentary", note: "Full day, two photographers" },
-  { name: "Print sales", note: "Archival, edition of 15" },
+  { name: "Wedding photography", note: "Full day coverage" },
+  { name: "Portrait sessions", note: "Studio or location" },
+  { name: "Event coverage", note: "Corporate & private" },
+  { name: "Family & graduation", note: "Packages available" },
 ];
 
 const SOCIALS = [
-  { name: "Instagram", href: "https://instagram.com", Icon: Instagram },
-  { name: "Behance", href: "https://behance.net", Icon: Palette },
-  { name: "Vimeo", href: "https://vimeo.com", Icon: Video },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/sushil_production?igsh=ajNkdmlweHpoZzNi",
+    Icon: Instagram,
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/share/1MAFoNUEuW/?mibextid=wwXIfr",
+    Icon: Facebook,
+  },
+  { name: "WhatsApp", href: `https://wa.me/60${PHONE.replace(/^0/, "")}`, Icon: Phone },
 ];
 
 export function Contact() {
@@ -46,8 +55,8 @@ export function Contact() {
                 Let's create <span className="text-primary">together</span>
               </h2>
               <p className="mt-6 max-w-sm text-sm leading-relaxed text-muted-foreground">
-                Booking commissions worldwide, currently based in Lisbon. Tell me the story and the
-                light you have — I'll tell you what's possible.
+                Based in Malaysia and available for commissions nationwide. Tell me your story and
+                the light you have — I'll tell you what's possible.
               </p>
             </Reveal>
 
@@ -108,7 +117,7 @@ export function Contact() {
         </div>
 
         <div className="mt-24 flex flex-col items-start justify-between gap-6 border-t border-border/60 pt-8 text-xs text-muted-foreground sm:flex-row sm:items-center">
-          <span>© {new Date().getFullYear()} Elena Voss Studio</span>
+          <span>© {new Date().getFullYear()} Sushil Production</span>
           <div className="flex gap-6">
             <a className="transition-colors hover:text-foreground" href="#work">
               Work
