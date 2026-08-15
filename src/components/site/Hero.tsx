@@ -30,7 +30,7 @@ export function Hero() {
           transition={{ delay: 1.1, duration: 0.8 }}
           className="eyebrow mb-8"
         >
-          Elena Voss — Photographer
+          Daniel Sushil — Photographer
         </motion.p>
 
         <h1 className="display-xl text-[18vw] leading-[0.82] sm:text-[15vw] lg:text-[11.5vw]">

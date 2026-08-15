@@ -3,9 +3,9 @@ import { ZoomIn } from "./ZoomIn";
 
 
 const STATS = [
-  { lead: "Shot across", value: 34, suffix: "+ countries", tail: "since 2011" },
-  { lead: "Published in", value: 120, suffix: " editorials", tail: "Vogue, Kinfolk, Monocle" },
-  { lead: "Documented", value: 460, suffix: " weddings", tail: "and still counting" },
+  { lead: "Capturing", value: 9, suffix: "+ years", tail: "of weddings, portraits & events" },
+  { lead: "Documented", value: 300, suffix: "+ moments", tail: "across Malaysia" },
+  { lead: "Clients", value: 150, suffix: "+ happy clients", tail: "and counting" },
 ];
 
 export function Stats() {

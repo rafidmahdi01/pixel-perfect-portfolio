@@ -30,7 +30,7 @@ export function ZoomStatement() {
           style={{ scale: subScale, opacity: subOpacity }}
           className="eyebrow absolute bottom-16"
         >
-          Twelve years behind the viewfinder
+          Since 2017, capturing real moments
         </motion.span>
       </div>
     </div>
