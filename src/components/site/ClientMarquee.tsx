@@ -1,18 +1,14 @@
 const CLIENTS = [
-  "WEDDINGS",
-  "PORTRAITS",
-  "EVENTS",
-  "FAMILIES",
-  "PRODUCT",
-  "COMMERCIAL",
-  "GRADUATION",
+  "MERCEDES BENZ",
+  "UNIVERSITY OF READING",
+  "UNIVERSITY OF SOUTHAMPTON",
 ];
 
 export function ClientMarquee() {
   const row = [...CLIENTS, ...CLIENTS];
   return (
     <section className="relative overflow-hidden border-y border-border/60 py-10">
-      <p className="eyebrow mb-8 px-6 text-center">Specialties</p>
+      <p className="eyebrow mb-8 px-6 text-center">Companies worked with</p>
       <div className="relative">
         <div className="marquee-track flex w-max gap-16 pr-16">
           {row.map((c, i) => (
